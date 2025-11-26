@@ -1,22 +1,22 @@
 {
-  "name": "superpowers-marketplace",
+  "name": "inscorep-superpowers-marketplace",
   "owner": {
-    "name": "Jesse Vincent",
-    "email": "jesse@fsck.com"
+    "name": "Inscorep",
+    "email": "jpmarais@inscorep.co.za"
   },
   "metadata": {
-    "description": "Curated Claude Code plugins: skills, workflows, and productivity tools",
-    "version": "1.0.9"
+    "description": "Inscorep customised Claude Code plugins: skills, workflows, and productivity tools",
+    "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "superpowers",
       "source": {
         "source": "url",
-        "url": "https://github.com/obra/superpowers.git"
+        "url": "https://github.com/Inscorep/claude-code-superpowers.git"
       },
-      "description": "Core skills library: TDD, debugging, collaboration patterns, and proven techniques",
-      "version": "3.5.1",
+      "description": "Inscorep customised skills library: debugging, collaboration patterns, and proven techniques (TDD optional, no worktrees)",
+      "version": "1.0.0",
       "strict": true
     },
     {
